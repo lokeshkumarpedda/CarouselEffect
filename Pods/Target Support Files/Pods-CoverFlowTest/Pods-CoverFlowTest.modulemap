@@ -1,0 +1,6 @@
+framework module Pods_CoverFlowTest {
+  umbrella header "Pods-CoverFlowTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

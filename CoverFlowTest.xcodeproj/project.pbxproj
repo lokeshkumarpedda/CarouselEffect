@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB6C279A342BB037E746886 /* Pods_CoverFlowTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25785E2A795ECAEA35EFB2B6 /* Pods_CoverFlowTest.framework */; };
 		58DFFD5B1EAF22260034B74F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFFD5A1EAF22260034B74F /* AppDelegate.swift */; };
 		58DFFD5D1EAF22260034B74F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFFD5C1EAF22260034B74F /* ViewController.swift */; };
 		58DFFD601EAF22260034B74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DFFD5E1EAF22260034B74F /* Main.storyboard */; };
 		58DFFD621EAF22260034B74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFFD611EAF22260034B74F /* Assets.xcassets */; };
 		58DFFD651EAF22260034B74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DFFD631EAF22260034B74F /* LaunchScreen.storyboard */; };
+		58DFFD701EAF260F0034B74F /* iCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DFFD6F1EAF260F0034B74F /* iCarousel.framework */; };
+		58DFFD721EAF261A0034B74F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DFFD711EAF261A0034B74F /* QuartzCore.framework */; };
+		58DFFD771EAF26BA0034B74F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFFD751EAF26BA0034B74F /* iCarousel.m */; };
+		58DFFD781EAF26BA0034B74F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58DFFD761EAF26BA0034B74F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25785E2A795ECAEA35EFB2B6 /* Pods_CoverFlowTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoverFlowTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A309B3A9B2ED34ABA5D0028 /* Pods-CoverFlowTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverFlowTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoverFlowTest/Pods-CoverFlowTest.release.xcconfig"; sourceTree = "<group>"; };
 		58DFFD571EAF22260034B74F /* CoverFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DFFD5A1EAF22260034B74F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58DFFD5C1EAF22260034B74F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,13 @@
 		58DFFD611EAF22260034B74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DFFD641EAF22260034B74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DFFD661EAF22260034B74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DFFD6C1EAF25D00034B74F /* CoverFlowTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoverFlowTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		58DFFD6F1EAF260F0034B74F /* iCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iCarousel.framework; path = "../../../../Library/Developer/Xcode/DerivedData/CoverFlowTest-cqoxvmipmbdxnrbltngqnjvkwkcc/Build/Products/Debug-iphonesimulator/iCarousel/iCarousel.framework"; sourceTree = "<group>"; };
+		58DFFD711EAF261A0034B74F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		58DFFD741EAF26BA0034B74F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		58DFFD751EAF26BA0034B74F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		58DFFD761EAF26BA0034B74F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8062D2D1D2FF072A5DC8413D /* Pods-CoverFlowTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoverFlowTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoverFlowTest/Pods-CoverFlowTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFFD721EAF261A0034B74F /* QuartzCore.framework in Frameworks */,
+				58DFFD701EAF260F0034B74F /* iCarousel.framework in Frameworks */,
+				4EB6C279A342BB037E746886 /* Pods_CoverFlowTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3290F1F7199894CB70FFCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8062D2D1D2FF072A5DC8413D /* Pods-CoverFlowTest.debug.xcconfig */,
+				3A309B3A9B2ED34ABA5D0028 /* Pods-CoverFlowTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58DFFD4E1EAF22250034B74F = {
 			isa = PBXGroup;
 			children = (
 				58DFFD591EAF22260034B74F /* CoverFlowTest */,
 				58DFFD581EAF22260034B74F /* Products */,
+				3E3290F1F7199894CB70FFCF /* Pods */,
+				8517B7DFBFFEF72A23366313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +88,30 @@
 				58DFFD611EAF22260034B74F /* Assets.xcassets */,
 				58DFFD631EAF22260034B74F /* LaunchScreen.storyboard */,
 				58DFFD661EAF22260034B74F /* Info.plist */,
+				58DFFD6C1EAF25D00034B74F /* CoverFlowTest-Bridging-Header.h */,
+				58DFFD731EAF26BA0034B74F /* iCarousel */,
 			);
 			path = CoverFlowTest;
+			sourceTree = "<group>";
+		};
+		58DFFD731EAF26BA0034B74F /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				58DFFD741EAF26BA0034B74F /* iCarousel.h */,
+				58DFFD751EAF26BA0034B74F /* iCarousel.m */,
+				58DFFD761EAF26BA0034B74F /* Info.plist */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		8517B7DFBFFEF72A23366313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58DFFD711EAF261A0034B74F /* QuartzCore.framework */,
+				58DFFD6F1EAF260F0034B74F /* iCarousel.framework */,
+				25785E2A795ECAEA35EFB2B6 /* Pods_CoverFlowTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DFFD691EAF22260034B74F /* Build configuration list for PBXNativeTarget "CoverFlowTest" */;
 			buildPhases = (
+				BFEC3352F64B8D5085B03E01 /* [CP] Check Pods Manifest.lock */,
 				58DFFD531EAF22260034B74F /* Sources */,
 				58DFFD541EAF22260034B74F /* Frameworks */,
 				58DFFD551EAF22260034B74F /* Resources */,
+				EF5413D336533429C640422D /* [CP] Embed Pods Frameworks */,
+				53EDFA2C0577EDD1BB58862F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +150,7 @@
 					58DFFD561EAF22260034B74F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7KV7Y4QP2Z;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFFD781EAF26BA0034B74F /* Info.plist in Resources */,
 				58DFFD651EAF22260034B74F /* LaunchScreen.storyboard in Resources */,
 				58DFFD621EAF22260034B74F /* Assets.xcassets in Resources */,
 				58DFFD601EAF22260034B74F /* Main.storyboard in Resources */,
@@ -132,11 +187,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53EDFA2C0577EDD1BB58862F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoverFlowTest/Pods-CoverFlowTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEC3352F64B8D5085B03E01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5413D336533429C640422D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoverFlowTest/Pods-CoverFlowTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58DFFD531EAF22260034B74F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFFD771EAF26BA0034B74F /* iCarousel.m in Sources */,
 				58DFFD5D1EAF22260034B74F /* ViewController.swift in Sources */,
 				58DFFD5B1EAF22260034B74F /* AppDelegate.swift in Sources */,
 			);
@@ -259,26 +363,33 @@
 		};
 		58DFFD6A1EAF22260034B74F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8062D2D1D2FF072A5DC8413D /* Pods-CoverFlowTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
 				INFOPLIST_FILE = CoverFlowTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.CoverFlowTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoverFlowTest/CoverFlowTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		58DFFD6B1EAF22260034B74F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A309B3A9B2ED34ABA5D0028 /* Pods-CoverFlowTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
 				INFOPLIST_FILE = CoverFlowTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.CoverFlowTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoverFlowTest/CoverFlowTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +413,7 @@
 				58DFFD6B1EAF22260034B74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
